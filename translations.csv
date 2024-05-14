@@ -1,0 +1,6 @@
+source_language,target_language,pattern,replacement
+Delphi,C#,procedure (\w+)\((.*?)\): (\w+);,public static \3 \1(\2) {
+Delphi,Java,procedure (\w+)\((.*?)\): (\w+);,public static \3 \1(\2) {
+Delphi,Python,procedure (\w+)\((.*?)\): (\w+);,def \1(\2):
+COBOL,C#,ADD (\w+) TO (\w+).,\1 += \2;
+VB,Python,Dim (\w+) As Integer,\1 = 0
