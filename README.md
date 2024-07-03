@@ -5,7 +5,7 @@ This Python application (using Tkinter) converts code snippets between languages
 **Features:**
 
 - Supports various languages (specify list)
-- Easy-to-use Tkinter GUI
+- Easy-to-use Tkinter Graphical User Interface
 
 **Installation:**
 
