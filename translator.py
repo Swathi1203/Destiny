@@ -156,11 +156,10 @@ class CodeTranslatorApp:
 
     def show_algorithm(self):
         code = self.input_text.get("1.0", tk.END)  # Get code from input text area
-
         # Placeholder for algorithm generation based on code
         algorithm = generate_algorithm_from_code(code)
 
-        # Display algorithm in a new window
+        # This will Display algorithm in a new window
         algorithm_window = tk.Toplevel(self.master)
         algorithm_window.title("Algorithm")
         
